@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workspacer.Services.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workspacer.Data.Models", "Data\Workspacer.Data.Models\Workspacer.Data.Models.csproj", "{AAA8F585-0A98-4966-BF88-B7DD5971EDCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workspaces.Data.Shared", "Data\Workspaces.Data.Shared\Workspaces.Data.Shared.csproj", "{79BE90CC-2687-401D-8C58-6426D938981B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AAA8F585-0A98-4966-BF88-B7DD5971EDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA8F585-0A98-4966-BF88-B7DD5971EDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA8F585-0A98-4966-BF88-B7DD5971EDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BE90CC-2687-401D-8C58-6426D938981B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BE90CC-2687-401D-8C58-6426D938981B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BE90CC-2687-401D-8C58-6426D938981B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BE90CC-2687-401D-8C58-6426D938981B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +71,6 @@ Global
 		{CF34B260-C2CB-4FFC-A198-CD37376D3A43} = {52CB6A30-5C41-47CB-AEA6-605BEAA87F33}
 		{24621D13-EB9B-4FB9-8F71-943E234C5DA9} = {81B583A8-5587-4C33-8985-0AF51FDF9A17}
 		{AAA8F585-0A98-4966-BF88-B7DD5971EDCF} = {52CB6A30-5C41-47CB-AEA6-605BEAA87F33}
+		{79BE90CC-2687-401D-8C58-6426D938981B} = {52CB6A30-5C41-47CB-AEA6-605BEAA87F33}
 	EndGlobalSection
 EndGlobal
